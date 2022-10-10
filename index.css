@@ -33,7 +33,9 @@
     width: 100%;
     background-color:white;
     height: 400px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    display: flex;
+    justify-content: center;
+
 }
 
 .boxes{
@@ -136,12 +138,13 @@
 }
 
 .cta{
-    width:99px;
-    height: 60%;
+    width: 99px;
+    height: 40px;
     background-color: #3882F6;
     border-radius: 9px;
-    padding: 10px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -168,6 +171,31 @@
 
 .footer{
     width: 80%;
-    height: 100px;
-    background-color: blue;
+    height: 200px;
+    background-color: #3882F6;
+    margin: auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    color: white;
+}
+
+.calltoaction{
+    width: 20px;
+    height: 20px;
+    background-color: aliceblue;
+    text-align: left;
+}
+
+.button2{
+    width: 140px;
+    height: 40px;
+    background-color: #3882F6;
+    border-style: solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
